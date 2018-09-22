@@ -61,6 +61,11 @@ public class JsonObject implements JObject {
     }
 
     @Override
+    public boolean contains(String key) {
+        return mapJson != null && mapJson.containsKey(key);
+    }
+
+    @Override
     public String toString() {
         return ObjectToJsonMapper.jsonToString(mapJson);
     }

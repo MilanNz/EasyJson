@@ -10,4 +10,5 @@ public interface JObject {
     int getInteger(String key);
     float getFloat(String key);
     double getDouble(String key);
+    boolean contains(String key);
 }

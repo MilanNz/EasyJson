@@ -106,15 +106,3 @@ public class ObjectToJsonTest {
         }
     }
 }
-
-
-EasyJsonTest.iml
-        app/
-        build.gradle
-        easyjson/
-        gradle.properties
-        gradle/
-        gradlew
-        gradlew.bat
-        local.properties
-        settings.gradle
