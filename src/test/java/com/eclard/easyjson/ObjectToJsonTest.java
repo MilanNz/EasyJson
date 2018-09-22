@@ -88,6 +88,13 @@ public class ObjectToJsonTest {
     }
 
     @Test
+    public void checkJsonObjectFieldTest() {
+        JsonObject jsonObject = new JsonObject();
+        jsonObject.put("name", "MilanNz");
+        Assert.assertTrue(jsonObject.contains("name"));
+    }
+
+    @Test
     public void stringToJsonObjectTest() {
         String stringJson = "{\"name\":\"Milan\", \"surename\":\"Adamovic\", \"flag\":false, \"number\":2}";
         JsonObject jsonObject = new JsonObject(stringJson);
