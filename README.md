@@ -1,6 +1,6 @@
 # :octocat: EasyJson
 EasyJson is java/android module for easy json manipulation. It is just another fun project to kill time.
-Please do not use it in production code, it is not tested and there are bugs :)
+Please do not use it in production code, it is not tested :)
 
 For production code i suggest Gson lib fully featured library:
 [Gson](https://github.com/google/gson)
