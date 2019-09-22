@@ -2,7 +2,7 @@
 EasyJson is java/android module for easy json manipulation. It is just another fun project to kill time.
 Please do not use it in production code, it is not tested :)
 
-For production code i suggest Gson lib fully featured library:
+For production code i suggest using Gson lib:
 [Gson](https://github.com/google/gson)
 
 # How to use it?
